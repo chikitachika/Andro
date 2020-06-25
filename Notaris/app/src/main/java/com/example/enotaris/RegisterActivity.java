@@ -23,7 +23,7 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    com.rengwuxian.materialedittext.MaterialEditText etName, etEmail,etTelp, etPassword;;
+    EditText etName, etEmail,etTelp, etPassword;;
     String name,email,telp,password;
     Button btnRegister;
     ProgressDialog progressDialog;
@@ -96,6 +96,7 @@ public class RegisterActivity extends AppCompatActivity {
                             Log.d("status",""+status);
                             if(status){
                                 new AlertDialog.Builder(RegisterActivity.this)
+
                                         .setMessage("Berhasil Menambahkan Data !")
                                         .setCancelable(false)
                                         .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
@@ -109,6 +110,7 @@ public class RegisterActivity extends AppCompatActivity {
                                             }
                                         })
                                         .show();
+
                             }
                             else{
                                 new AlertDialog.Builder(RegisterActivity.this)

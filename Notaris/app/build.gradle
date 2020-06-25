@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.volley"
+      
         minSdkVersion 27
         targetSdkVersion 29
         versionCode 1
@@ -54,7 +54,7 @@ dependencies {
     //noinspection GradleCompatible
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation('com.android.volley:volley:1.1.0')
+
 
     implementation 'com.amitshekhar.android:android-networking:1.0.2'
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
