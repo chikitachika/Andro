@@ -22,15 +22,15 @@ public class LoginActivity extends AppCompatActivity {
     TextView tvRegister;
     Button btnLogin;
 
-    final String url_Login = "https://atifnaseem22.000webhostapp.com/login_user.php";
+    final String url_Login = "https://192.168.1.7/kelompok-5/restnot/index.php/loginclient";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        etEmail = (EditText) findViewById(R.id.et_email);
-        etPassword = (EditText) findViewById(R.id.et_password);
+        etEmail = (EditText) findViewById(R.id.et_emaill);
+        etPassword = (EditText) findViewById(R.id.et_pass);
         btnLogin = (Button) findViewById(R.id.btn_login);
         tvRegister = (TextView) findViewById(R.id.tv_register);
 
@@ -68,8 +68,8 @@ public class LoginActivity extends AppCompatActivity {
 
             OkHttpClient okHttpClient = new OkHttpClient();
             RequestBody formBody = new FormBody.Builder()
-                    .add("user_id", Email)
-                    .add("user_password", Password)
+                    .add("email", Email)
+                    .add("password", Password)
                     .build();
 
             Request request = new Request.Builder()

@@ -15,7 +15,7 @@
         />
 
     <EditText
-        android:id="@+id/et_name"
+        android:id="@+id/et_name2"
         android:textColor="#000080"
         android:background="#11000000"
         android:layout_width="260dp"
@@ -28,11 +28,11 @@
         />
 
     <TextView
-        android:id="@+id/tv_name"
+        android:id="@+id/tv_name2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/et_name"
-        android:layout_alignStart="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name2"
+        android:layout_alignStart="@+id/et_name2"
         android:layout_below="@+id/iv_user"
         android:layout_marginTop="10dp"
         android:text="Name"
@@ -45,17 +45,13 @@
 
 
 
-
-
-
-
     <EditText
-        android:id="@+id/et_reg_email"
+        android:id="@+id/et_reg_email2"
         android:textColor="#000080"
         android:background="#11000000"
         android:layout_width="260dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/et_name"
+        android:layout_below="@+id/et_name2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -63,24 +59,49 @@
         />
 
     <TextView
-        android:id="@+id/tv_reg_email"
+        android:id="@+id/tv_reg_email2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/et_name"
-        android:layout_alignStart="@+id/et_name"
-        android:layout_below="@+id/et_name"
+        android:layout_alignLeft="@+id/et_name2"
+        android:layout_alignStart="@+id/et_name2"
+        android:layout_below="@+id/et_name2"
         android:layout_marginTop="10dp"
         android:text="Email"
         android:textColor="#FFB3B3B3"
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/et_reg_telp"
+        android:id="@+id/et_sk"
         android:textColor="#000080"
         android:background="#11000000"
         android:layout_width="260dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/et_reg_email"
+        android:layout_below="@+id/et_reg_email2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/tv_sk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_name2"
+        android:layout_alignStart="@+id/et_name2"
+        android:layout_below="@+id/et_reg_email2"
+        android:layout_marginTop="10dp"
+        android:text="NO SK"
+        android:textColor="#FFB3B3B3"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_reg_telp2"
+        android:textColor="#000080"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_sk"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -88,12 +109,12 @@
         />
 
     <TextView
-        android:id="@+id/tv_reg_telp"
+        android:id="@+id/tv_reg_telp2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/et_name"
-        android:layout_alignStart="@+id/et_name"
-        android:layout_below="@+id/et_reg_email"
+        android:layout_alignLeft="@+id/et_name2"
+        android:layout_alignStart="@+id/et_name2"
+        android:layout_below="@+id/et_sk"
         android:layout_marginTop="10dp"
         android:text="Telepon"
         android:textColor="#FFB3B3B3"
@@ -106,12 +127,12 @@
 
 
     <EditText
-        android:id="@+id/et_reg_password"
+        android:id="@+id/et_reg_password2"
         android:textColor="#000080"
         android:background="#11000000"
         android:layout_width="260dp"
         android:layout_height="30dp"
-        android:layout_below="@+id/et_reg_telp"
+        android:layout_below="@+id/et_reg_telp2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -119,12 +140,12 @@
         />
 
     <TextView
-        android:id="@+id/tv_reg_password"
+        android:id="@+id/tv_reg_password2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/et_name"
-        android:layout_alignStart="@+id/et_name"
-        android:layout_below="@+id/et_reg_telp"
+        android:layout_alignLeft="@+id/et_name2"
+        android:layout_alignStart="@+id/et_name2"
+        android:layout_below="@+id/et_reg_telp2"
         android:layout_marginTop="10dp"
         android:text="Password"
         android:textColor="#FFB3B3B3"
@@ -137,13 +158,13 @@
 
 
     <Button
-        android:id="@+id/btn_register"
+        android:id="@+id/btn_register2"
         android:background="@drawable/button_rectangle_pink"
         android:textColor="#ffffff"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_below="@+id/et_reg_password"
+        android:layout_below="@+id/et_reg_password2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:text="Register" />

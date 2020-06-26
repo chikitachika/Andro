@@ -19,6 +19,13 @@
         <activity android:name=".RegisterActivity">
 
         </activity>
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".RegNot">
+
+        </activity>
+
 
     </application>
 

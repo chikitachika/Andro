@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/iconfinder_3_avatar_2754579" />
 
     <TextView
-        android:id="@+id/tv_emaill"
+        android:id="@+id/tv_email2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/et_name"
@@ -29,7 +29,7 @@
         />
 
     <EditText
-        android:id="@+id/et_emaill"
+        android:id="@+id/et_email2"
 
         android:textColor="#000080"
         android:background="#11000000"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/et_name"
         android:layout_alignStart="@+id/et_name"
-        android:layout_below="@+id/et_emaill"
+        android:layout_below="@+id/et_email2"
         android:layout_marginTop="10dp"
         android:text="Password"
         android:textColor="#FFB3B3B3"
@@ -58,12 +58,12 @@
 
 
     <EditText
-        android:id="@+id/et_pass"
+        android:id="@+id/et_pass2"
         android:textColor="#000080"
         android:background="#11000000"
         android:layout_width="250dp"
         android:layout_height="36dp"
-        android:layout_below="@+id/et_emaill"
+        android:layout_below="@+id/et_email2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:ems="10"
@@ -74,22 +74,22 @@
 
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_login2"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_rectangle_pink"
         android:textColor="#ffffff"
         android:textSize="20sp"
-        android:layout_below="@+id/et_pass"
+        android:layout_below="@+id/et_pass2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:text="Login" />
 
     <TextView
-        android:id="@+id/tv_register"
+        android:id="@+id/tv_regnot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btn_login"
+        android:layout_below="@+id/btn_login2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textSize="15sp"
